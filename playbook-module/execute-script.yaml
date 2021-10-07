@@ -1,0 +1,6 @@
+-
+ name: 'execute a script on the web nodes'
+ hosts: all_targets
+ tasks: 
+   - name: 'execute a script on the web_nodes'
+     script: ~/hello-world.sh
