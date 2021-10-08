@@ -1,0 +1,16 @@
+- 
+ name: yum update all serves
+ hosts: all_targets
+ become: yes
+ tasks: 
+   - name: Yum cache update all packages
+     yum: 
+       name: '*'
+       update_cache: yes
+
+   - name: yum update only
+     yum: 
+       name: '*'
+       update_only: yes
+    
+

@@ -1,5 +1,5 @@
-target1 ansible_host=172.31.10.191 ansible_user=cloud_user
-target2 ansible_host=172.31.10.51  ansible_user=cloud_user
+target1 ansible_host=172.31.10.191  
+target2 ansible_host=172.31.10.51  
 
 [all_targets]
 target1
